@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>f1d5a4c6-304c-4a93-8fb0-1dc2c04b477e</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="PbcProxy.cpp" />
+    <ClCompile Include="Debug.cpp" />
+    <ClCompile Include="Random.cpp" />
+    <ClCompile Include="Pairing.cpp" />
+    <ClCompile Include="Params.cpp" />
+    <ClCompile Include="Element.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="PbcProxy.h" />
+    <ClInclude Include="Debug.h" />
+    <ClInclude Include="Random.h" />
+    <ClInclude Include="Params.h" />
+    <ClInclude Include="Pairing.h" />
+  </ItemGroup>
+</Project>

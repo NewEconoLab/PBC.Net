@@ -1,0 +1,15 @@
+﻿<Page
+    x:Class="Handshake.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Handshake"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" HorizontalAlignment="Center" VerticalAlignment="Center" Width="350" Height="640" Margin="0,0,10,0" >
+        <Button x:Name="StartStopAdvertising" Content="Start Advertising" Margin="33,226,0,382" Click="StartStopAdvertising_Click" Height="32"/>
+        <Button x:Name="StartStopScanning" Content="Start Scanning" Margin="200,226,0,382" Click="StartStopScanning_Click" Height="32"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Center" Margin="33,294,35,111" TextWrapping="Wrap" Text="" Height="235" Width="282" VerticalAlignment="Center" IsReadOnly="True"/>
+    </Grid>
+</Page>
