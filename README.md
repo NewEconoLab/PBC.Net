@@ -1,4 +1,4 @@
-# PBC.Net
+# MASHaBLE
 This project contains the following: 
 - A Microsoft .NET Extension for Stanford PBC Library  
 - A port of the Stanford PBC Library for ARM
