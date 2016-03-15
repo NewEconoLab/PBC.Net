@@ -1,5 +1,3 @@
-# PBC.Net
-This project contains the following: 
-- A Microsoft .NET Extension for Stanford PBC Library  
-- A port of the Stanford PBC Library for ARM
-- Implementation of secret handshakes protocol for Windows phone
+# MASHaBLE
+We present new applications for cryptographic secret handshakes between mobile devices. Modern mobile devices are equipped with Bluetooth Low-Energy (LE) transceivers, capable of advertising to and scanning for nearby devices. Secret handshakes enable mutual authentication, with the property that the parties learn nothing about each other unless they have been both issued credentials by a group administrator. This property provides strong privacy guarantees that enable interesting applications. One of them is proximity-based messaging for private communities.
+We introduce MASHaBLE, a mobile application that enables participants to send messages to nearby users if and only if they belong to the same secret community. We use direct peer-to-peer communication over Bluetooth LE, rather than relying on a central server. We discuss the specifics of implementing secret handshakes over Bluetooth LE and present our prototype implementation.
